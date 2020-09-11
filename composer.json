@@ -20,7 +20,7 @@
     "jonahgeorge/jaeger-client-php": "^0.6.0",
     "opentracing/opentracing": "^1.0.0-beta6",
     "psr/cache": "~1.0.1",
-    "symfony/cache": "^6.1"
+    "symfony/cache": "*"
   },
   "require-dev": {
     "mockery/mockery": "^1.2.2",
