@@ -1,5 +1,5 @@
 {
-  "name": "wizofgoz/laravel-opentracing",
+  "name": "ikstar/laravel-opentracing",
   "description": "",
   "keywords": [
     "opentracing",
@@ -9,18 +9,18 @@
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "Jordan Gosney",
-      "email": "wizofgoz2@gmail.com"
+      "name": "Peter Arapov",
+      "email": "arapovp@gmail.com"
     }
   ],
   "require": {
     "php": ">=7.3",
     "guzzlehttp/guzzle": "^6.2",
-    "illuminate/support": "^7.0",
+    "illuminate/support": "^6.0|^7.0",
     "jonahgeorge/jaeger-client-php": "^0.6.0",
     "opentracing/opentracing": "^1.0.0-beta6",
     "psr/cache": "~1.0.1",
-    "symfony/cache": "^5.1"
+    "symfony/cache": "^6.1"
   },
   "require-dev": {
     "mockery/mockery": "^1.2.2",
